@@ -1,0 +1,54 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+DEFINE the two numbers
+
+	x = 2
+	y = 5
+
+SUM is defined as the addition of x and y
+
+	sum = x + y
+
+THEREFORE the sum of the two numbers is calculated as
+
+	sum = 2 + 5
+	sum = 7
+
+// Exercise 2: Check if a Number is Even or Odd
+
+IF number is % 2 = 0 then even
+	ELSE is odd
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+
+DEFINE the five separate integers
+	
+	int1 = Randomly generate int1 
+	int2 = Check value of int1, then randomly generate noncompeteing int2
+	int3 = Check value of previous integers, then randomly generate noncompeting int3
+	int4 = Check value of previous integers, then randomly generate noncompeting int4
+	int5 = Check value of previous integers, then randomly generate noncompeting int5
+
+CALCULATE average of the five integers as
+
+	Average = (int1 + int2 + int3 + int4 + int5) % 5
+
+DEFINE the minimum and maximum of the five integers as
+
+	min = check for smallest integer value (int1, int2, int3, int4, int5)
+	max = check for greatest integer value (int1, int2, int3, int4, int5)
+
+IF average, print "This is the average of the five numbers"
+
+IF min, print "This is the smallest of the five numbers"
+
+If max, print "This is the largest of the five numbers"
+
+-- END --
